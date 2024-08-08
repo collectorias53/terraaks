@@ -5,12 +5,12 @@ variable "resource_group_name" {
 
 variable "location" {
   description = "The Azure region where the resources are created."
-  default     = "East US"
+  default     = "South Central US"
 }
 
 variable "aks_cluster_name" {
   description = "The name of the AKS cluster."
-  default     = "terraform-aks"
+  default     = "terraform-aks-ado"
 }
 
 variable "dns_prefix" {
